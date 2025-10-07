@@ -3,12 +3,11 @@ class Person {
 	constructor(myName, myAge) {
 		this.name = myName;
 		this.age = 0;
-		this.setAge(age);
 	}
 
-	// get name() {
-	// 	return this.name;
-	// }
+	get name() {
+		return this.name;
+	}
 
 	set age(newAge) {
 		this.age = newAge;
